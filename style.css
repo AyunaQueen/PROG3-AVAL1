@@ -1,0 +1,153 @@
+ /* Geral */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+ ul{
+    list-style: none;
+    text-decoration: none;
+ }
+body{
+    font-family: 'Roboto',sans-serif;
+    min-width: 100vw;
+    min-height: 100vw;
+}
+
+.row{
+   margin: 0; 
+}
+
+.container{
+    padding: 70px 0;
+}
+ p,li,h1{
+    color: #fd028c;
+    font-size: 14px;
+ }
+
+ /* Barra de navegação */
+ header, .navbar{
+    background-color: #f8b1eb;
+ }
+
+ #nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
+ }
+
+ #logo{
+    width: 200px;
+ }
+ .navbar-brand{
+    padding: 0;
+    color: #fd028c;
+ }
+ .navbar-brand:hover{
+    color: #fd028c;
+ }
+
+ .navbar-links a{
+    color: #fd028c;
+ }
+
+ .navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem .8rem;
+
+ }
+
+#Vendas{
+    background-color: #f6ccee;
+    padding: 0;
+    margin: 0;
+}
+
+ #Vendas h1{
+    font-size: 90px;
+    text-align: center;
+ }
+
+
+ #Vendas img{
+    width: 200px;
+    height: 200px;
+    
+ }
+#Vendas ul li a img{
+    width: 50px;
+    height: 50px;
+}
+#Vendas ul{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+#Vendas ul li{
+    background-color: #f8b1eb;
+    width: 500px;
+    height: 250px;
+    align-items: center;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+#Historia{
+    background-color: #f8b1eb;
+    height: 650px;
+    display: flex;
+
+}
+#Historia h1{
+  margin-top: 60px;
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgb(115, 4, 65);
+  font-family: 'Nunito', sans-serif;
+}
+#Historia img{
+    margin-right: 30px;
+    margin-top:60px;
+    width: 500px;
+    height: 500px;
+}
+#Historia p{
+font-size: 20px;
+text-shadow: 1px 1px 2px rgb(115, 4, 65);
+text-align: center;
+font-family: 'Nunito', sans-serif;
+}
+@media(max-width:1200px){
+   #Historia{
+      display: none;   
+   }
+ 
+}
+
+.fonte a{
+    text-decoration: none;
+}
+#Contato{
+    background-color: #f6ccee;
+}
+
+#Contato h1{
+   text-align: center;
+   font-size: 30px;
+}
+#Contato p{
+    display: flex;
+    justify-content: center;
+  
+}
+
+#Contato img{
+    width: 100px;
+    height: 100px;
+
+}
+
+.Apresentacao img{
+  width: 100%;
+}
